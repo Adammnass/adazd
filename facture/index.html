@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture en Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Facture en Javascript</h2>
+        <table>
+            <tr>
+                <th>Article</th>
+                <th>Prix</th>
+                <th>Quantité</th>
+                <th>Résultat</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="article1" value="E1"></td>
+                <td><input type="number" id="price1" value="13"></td>
+                <td><input type="number" id="quantity1" value="2"></td>
+                <td><span id="result1">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="article2" value="E2"></td>
+                <td><input type="number" id="price2" value="33"></td>
+                <td><input type="number" id="quantity2" value="3"></td>
+                <td><span id="result2">0</span></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="article3" value="E3"></td>
+                <td><input type="number" id="price3" value="22"></td>
+                <td><input type="number" id="quantity3" value="3"></td>
+                <td><span id="result3">0</span></td>
+            </tr>
+        </table>
+        <button class="button calculate" onclick="calculateTotal()">Résultat</button>
+        <button class="button reset" onclick="resetForm()">Réinitialiser</button>
+        <div class="total">Total TTC: <span id="totalResult">0</span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

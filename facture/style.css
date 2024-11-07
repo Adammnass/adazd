@@ -1,0 +1,65 @@
+body {
+    background-color: #e0b3cc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #b36a90;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+input[type="number"], input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculate {
+    background-color: #66b2b2;
+    color: white;
+}
+
+.reset {
+    background-color: #b24c66;
+    color: white;
+    margin-top: 5px;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
